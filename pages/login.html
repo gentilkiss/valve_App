@@ -1,0 +1,48 @@
+<style>
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    </style>
+    <!-- ============================================================== -->
+    <!-- login page  -->
+    <!-- ============================================================== -->
+    <div class="splash-container">
+        <div class="card ">
+            <div class="card-header text-center"><span class="splash-description">SVP! enter les informations de votre compte.</span></div>
+            <div class="card-body">
+                <form method="POST" autocomplete="off" >
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" id="username" name="nom_user" type="text" placeholder="Nom d'utilisateur" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" id="password" name="pass_user" type="password" placeholder="Mot de passe">
+                    </div>
+                    <div class="form-group">
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" name="remember" type="checkbox"><span class="custom-control-label">Se souvenir de moi</span>
+                        </label>
+                    </div>
+                    <a href="index.php?page=sefac"  name="log" class="btn btn-success btn-lg btn-block">Connecter</a>
+                </form>
+            </div>
+            <div class="card-footer bg-white p-0  ">
+                <div class="card-footer-item card-footer-item-bordered">
+                    <a href="index.php?page=register" class="footer-link">Créer un compte</a></div>
+                <div class="card-footer-item card-footer-item-bordered">
+                    <a href="#" class="footer-link">Code oublé</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
