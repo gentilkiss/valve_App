@@ -28,7 +28,7 @@ else
 <html lang="en">
 <head>
     <!-- Optional JavaScript -->
-	<!-- jquery 3.3.1 -->
+	<!-- jquery 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 3.3.1 -->
     <script src="../../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <!-- bootstap bundle js -->
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
