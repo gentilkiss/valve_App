@@ -24,7 +24,8 @@ else
 //     include_once('functions/'.$page.'.func.html');
 // }
 ?>
-<html lang="en"><head>
+<html lang="en">
+    <head>
     <!-- Required meta tags -->
     <?php
     $function = scandir('functionsjs/');
@@ -49,7 +50,9 @@ else
     <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/css/style.css">
     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    
+    <link rel="stylesheet" href="../assets/vendor/select2/css/select2.css">
+    <link rel="stylesheet" href="../assets/vendor/summernote/css/summernote-bs4.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
 </head>
 
 <body>
